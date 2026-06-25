@@ -1,0 +1,11 @@
+-- Movies with rating between 5 and 8
+
+SELECT *
+FROM CINEMA
+WHERE RATING BETWEEN 5 AND 8;
+
+-- Movies with collection between 1000000 and 300000000
+
+SELECT *
+FROM CINEMA
+WHERE COLLECTION BETWEEN 1000000 AND 300000000;
