@@ -1,0 +1,31 @@
+-- Display current date
+
+SELECT SYSDATE
+FROM DUAL;
+
+-- Add 30 days
+
+SELECT SYSDATE + 30
+FROM DUAL;
+
+-- Add 6 months
+
+SELECT ADD_MONTHS(SYSDATE,6)
+FROM DUAL;
+
+-- Last day of current month
+
+SELECT LAST_DAY(SYSDATE)
+FROM DUAL;
+
+-- Next Friday
+
+SELECT NEXT_DAY(SYSDATE,'FRIDAY')
+FROM DUAL;
+
+-- Months between two dates
+
+SELECT MONTHS_BETWEEN(
+       TO_DATE('01-JAN-2026','DD-MON-YYYY'),
+       TO_DATE('01-JAN-2025','DD-MON-YYYY'))
+FROM DUAL;
