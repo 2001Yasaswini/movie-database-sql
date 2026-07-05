@@ -1,8 +1,8 @@
-# 🎬 Movie Database SQL Project
+# 🎬 Movie OR Cinema  Database SQL Project
 
 ## 📌 Project Overview
 
-This repository documents my Oracle SQL learning journey through a Movie Database project.
+This repository documents my Oracle SQL learning journey through a Movie OR Cinema Database project.
 
 Instead of uploading one large SQL file, I have organized my practice into separate folders based on SQL concepts. This repository will continue to grow as I learn more SQL topics.
 
