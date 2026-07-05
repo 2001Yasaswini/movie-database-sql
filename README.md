@@ -18,33 +18,19 @@ Instead of uploading one large SQL file, I have organized my practice into separ
 ---
 
 ## 📂 Project Structure
-
-```
-movie-database-sql
-│
-├── README.md
-│
-├── 01_DDL
-│   ├── 01_create_table.sql
-│   ├── 02_alter_table.sql
-│   └── 03_rename_table.sql
-│
-├── 02_DML
-│   ├── 01_insert_data.sql
-│   └── 02_update_data.sql
-│
-├── 03_SELECT (Coming Soon)
-├── 04_FILTERING (Coming Soon)
-├── 05_AGGREGATE_FUNCTIONS (Coming Soon)
-├── 06_GROUP_BY (Coming Soon)
-├── 07_CONSTRAINTS (Coming Soon)
-├── 08_JOINS (Coming Soon)
-├── 09_SUBQUERIES (Coming Soon)
-└── 10_VIEWS (Coming Soon)
-```
-
----
-
+├── 03_SELECT
+├── 04_FILTERING
+├── 05_AGGREGATE_FUNCTIONS
+├── 06_GROUP_BY
+├── 07_CONSTRAINTS
+├── 08_STRING_FUNCTIONS
+├── 09_NUMERIC_FUNCTIONS
+├── 10_DATE_FUNCTIONS
+├── 11_CONVERSION_FUNCTIONS (Coming Soon)
+├── 12_JOINS (Coming Soon)
+├── 13_SUBQUERIES (Coming Soon)
+├── 14_SET_OPERATORS (Coming Soon)
+└── 15_VIEWS (Coming Soon)
 ## ✅ Topics Completed
 
 ### Data Definition Language (DDL)
@@ -58,33 +44,70 @@ movie-database-sql
 - Insert Records
 - Update Records
 
----
+### Querying Data
 
-## 🚀 Topics I Will Practice Next
-
-- Delete Records
 - SELECT
+- DISTINCT
 - WHERE Clause
 - LIKE
 - BETWEEN
 - IN
 - ORDER BY
+
+### Aggregate Functions
+
+- COUNT()
+- SUM()
+- AVG()
+- MIN()
+- MAX()
+
+### Grouping Data
+
 - GROUP BY
 - HAVING
-- Aggregate Functions
-- Constraints
+
+### Constraints
+
+- PRIMARY KEY
+- NOT NULL
+- UNIQUE
+- CHECK
+
+### String Functions
+
+- UPPER()
+- LOWER()
+- INITCAP()
+- LENGTH()
+- SUBSTR()
+
+### Numeric Functions
+
+- ROUND()
+- SQRT()
+- MOD()
+- ABS()
+
+### Date Functions
+
+- SYSDATE
+- ADD_MONTHS()
+- LAST_DAY()
+- NEXT_DAY()
+- MONTHS_BETWEEN()
+  ## 🚀 Topics I Will Practice Next
+
+- Conversion Functions
 - Joins
+- Set Operators
 - Subqueries
 - Views
-
----
-
-## 🎯 Purpose
-
-The purpose of this repository is to demonstrate practical Oracle SQL skills through structured hands-on practice while continuously improving my SQL knowledge.
-
----
-
-## 👩‍💻 Author
+- Sequences
+- Indexes
+- PL/SQL Basics
+- Stored Procedures
+- Functions
+- Triggers
 
 **Sana Venkata Yasaswini**
